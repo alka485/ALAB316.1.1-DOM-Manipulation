@@ -12,3 +12,14 @@ mainEl[0].innerHTML = "<h1>DOM Manipulation</h1>"
 
 mainEl[0].classList.toggle('flex-ctr')
 
+//Part 2 : Creating a Menu Bar
+
+//Select and cache the <nav id="top-menu"> element in a variable named topMenuEl.
+
+const topMenuEl = document.getElementById('top-menu');
+console.log(topMenuEl);
+
+
+
+
+
