@@ -31,6 +31,23 @@ topMenuEl.style.backgroundColor = 'var(--top-menu-bg)';
 
 topMenuEl.classList.toggle('flex-around');
 
+//Part 3 : Adding Menu Buttons
+
+// Menu data structure
+var menuLinks = [
+    { text: 'about', href: '/about' },
+    { text: 'catalog', href: '/catalog' },
+    { text: 'orders', href: '/orders' },
+    { text: 'account', href: '/account' },
+  ];
+
+  //Iterate over the entire menuLinks array and for each "link" object:
+  menuLinks.forEach(link =>{
+     console.log(link)
+     let anchor = document.createElement("a");
+     console.log(anchor);
+    
+    });
 
 
 
