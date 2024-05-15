@@ -46,6 +46,10 @@ var menuLinks = [
      console.log(link)
      let anchor = document.createElement("a");
      console.log(anchor);
+     anchor.setAttribute("href",'link.href')
+     anchor.textContent = link.text;
+     console.log(link.text);
+     topMenuEl.appendChild(anchor)
     
     });
 
